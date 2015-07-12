@@ -1,4 +1,9 @@
-module.exports = {
+/*!
+ * ReactJS.SPA
+ * @author Ggoals <fklh15@naver.com>
+ */
+
+const appConfig = {
   entry: "./app/App.js",
   output: {
     filename: "public/bundle.js"
@@ -13,3 +18,5 @@ module.exports = {
     ]
   }
 };
+
+export default [appConfig];
