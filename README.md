@@ -4,16 +4,11 @@
 
 ```
 .
-├── /build/                     # The folder for compiled output
 ├── /node_modules/              # 3rd-party libraries and utilities
 ├── /src/                       # The source code of the application
-│   ├── /actions/               # Action creators that allow to trigger a dispatch to stores
 │   ├── /components/            # React components
-│   ├── /constants/             # Constants (action types etc.)
-│   ├── /core/                  # Core components (Flux dispatcher, utilities)
-│   ├── /decorators/            # Higher-order React components
+│   ├── /config/            	# Routing config file
 │   ├── /public/                # Static files which are copied into the /build/public folder
-│   ├── /stores/                # Stores contain the application state and logic
 │   ├── /utils/                 # Utility classes and functions
 │   ├── /app.js                 # Client-side startup script
 │── gulpfile.js                 # Configuration file for automated builds
